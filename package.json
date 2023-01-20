@@ -1,0 +1,27 @@
+{
+  "name": "debunk-parent",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Monolithic repository for debunk packages",
+  "scripts": {
+    "publish": "lerna run build && lerna publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debunk/debunk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/debunk/debunk/issues"
+  },
+  "homepage": "https://github.com/debunk/debunk#readme",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/tar": "^4.0.3",
+    "tar": "^6.0.1",
+    "zlib": "^1.0.5"
+  }
+}

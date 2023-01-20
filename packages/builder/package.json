@@ -1,0 +1,36 @@
+{
+  "name": "@debunk/builder",
+  "version": "0.0.2-alpha.0",
+  "description": "Compares a NPM package to its source code in Git repository",
+  "homepage": "https://github.com/debunk/debunk/tree/master/packages/builder#readme",
+  "license": "Apache-2.0",
+  "main": "dist/main.js",
+  "typings": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debunk/debunk.git"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "develop": "tsc -w"
+  },
+  "bugs": {
+    "url": "https://github.com/debunk/debunk/issues"
+  },
+  "gitHead": "81384b559ab89a168b386efe53657e8e2a18772e",
+  "dependencies": {
+    "dir-compare": "^2.2.0",
+    "node-fetch": "^2.6.0",
+    "tar": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/tar": "^4.0.3",
+    "@types/node-fetch": "^2.5.4"
+  }
+}
